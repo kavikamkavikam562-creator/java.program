@@ -6,8 +6,14 @@ public class Operators13 {
 
         int connection = scan.nextInt();
         int appliance = scan.nextInt();
-
-                  
-
+        int a = connection & appliance;
+        
+        if(a == appliance){
+            System.out.println("Active");
+        }
+        else{
+            System.out.println("Inactive");
+        }
+        scan.close();
     }
 }
