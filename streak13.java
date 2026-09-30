@@ -23,4 +23,4 @@ public class streak13 {
 
         System.out.println(result);
     }
-} 
+} st

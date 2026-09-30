@@ -15,7 +15,7 @@ public class ifelse6{
         String category = "";
 
       
-        if (bookingClass.equals("Economy")) {
+        if(bookingClass.equals("Economy")) {
             if (routeType.equals("Domestic")) {
                 basePrice = 200;
             } else if (routeType.equals("International-Short")) {
@@ -24,8 +24,8 @@ public class ifelse6{
                 basePrice = 800;
             }
         } 
-        else if (bookingClass.equals("Business")) {
-            if (routeType.equals("Domestic")) {
+        else if(bookingClass.equals("Business")) {
+            if(routeType.equals("Domestic")) {
                 basePrice = 600;
             } else if (routeType.equals("International-Short")) {
                 basePrice = 1500;
@@ -76,5 +76,6 @@ public class ifelse6{
         System.out.println("Demand Multiplier: " + multiplier + "x");
         System.out.println("Final Ticket Price: $" + finalPrice);
         System.out.println("Pricing Category: " + category);
+        sc.close();
     }
 }

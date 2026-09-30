@@ -50,6 +50,7 @@ public class pac17 {
         StringBuffer sb=new StringBuffer(r);
         System.out.println(sb.reverse());
     }
-} {
+} 
+
     
-}
+

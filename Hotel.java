@@ -10,5 +10,6 @@ public class Hotel{
        int commissions = scan.nextInt();
        int revenue = (rooms * price) + serviceCharges - commissions;
        System.out.println("Total Revenue = "+revenue);
+       scan.close();
     }
 }

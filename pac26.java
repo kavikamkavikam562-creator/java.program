@@ -13,7 +13,7 @@ class pac26{
         for(int j = 0;j<str2.length();i++){
             char c1 = str2.charAt(j);
             if(c == c1){
-                System.out.print(c1 +" ");
+                System.out.print(c);
             }
         }
        }

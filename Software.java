@@ -9,5 +9,6 @@ public class Software{
         int advance = scan.nextInt();
         int project_cost = (hours * rate) + design + testing - advance;
         System.out.println("Final Project Cost = "+project_cost);
+        scan.close();
     }
 }

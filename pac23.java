@@ -1,9 +1,9 @@
-class Solution {
+class pac23 {
     void helloFunction(){
         System.out.print("Hello");
     }
     public static void main(String[] args){
-       Solution obj = new Solution();
+       pac23 obj = new pac23();
        obj.helloFunction();
         
     }

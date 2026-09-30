@@ -8,7 +8,7 @@ public class ifelse2 {
         int creditScore = sc.nextInt();
         double annualIncome = sc.nextDouble();
         double debtToIncomeRatio = sc.nextDouble();
-        sc.nextLine(); // Consume newline
+        sc.nextLine(); 
         String loanType = sc.nextLine();
 
         String decision = "";

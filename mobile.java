@@ -10,6 +10,7 @@ public class mobile{
         float M = percentage/100F;
         float totalbill = cost+N+M;
         System.out.println("Total Bill = "+totalbill);
+       
 
 
 

@@ -30,7 +30,7 @@ public class ifelse4 {
             additionalDiscount += 3;
         } else if (cartValue >= 1000 && cartValue <= 1999) {
             additionalDiscount += 5;
-        } else if (cartValue >= 2000) {
+        } else if (cartValue >= 2000){
             additionalDiscount += 7;
         }
 

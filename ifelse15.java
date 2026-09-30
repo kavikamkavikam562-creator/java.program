@@ -57,5 +57,6 @@ public class ifelse15 {
         System.out.println("Total Annual Cost: $" + totalAnnual);
         System.out.println("Total Contract Value: $" + contractValue);
         System.out.println("Pricing Tier: " + tier);
+        sc.close();
     }
 }
