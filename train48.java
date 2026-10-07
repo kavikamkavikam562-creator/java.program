@@ -1,4 +1,4 @@
-class train48 {
+class train48tr {
     public int numIslands(char[][] grid) {
         int count = 0;
 
