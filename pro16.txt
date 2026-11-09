@@ -1,0 +1,57 @@
+You are given an array of N integers. Find the second largest distinct element in the array.
+
+If the second largest element does not exist, print -1.
+
+Example 1:
+Input:
+6
+10 20 5 8 20 15
+
+Output:
+15
+
+
+Example 2:
+Input:
+5
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        int largest = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+
+        for (int i = 0; i < n; i++) {
+            if (arr[i] > largest) {
+                second = largest;
+                largest = arr[i];
+            } 
+            else if (arr[i] > second && arr[i] != largest) {
+                second = arr[i];
+            }
+        }
+
+        if (second == Integer.MIN_VALUE) {
+            System.out.println(-1);
+        } else {
+            System.out.println(second);
+        }
+
+        sc.close();
+    }
+}
+
+5 5 5 5 5
+
+Output:
+-1
+answer 
