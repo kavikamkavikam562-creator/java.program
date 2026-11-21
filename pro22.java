@@ -1,12 +1,26 @@
-
 import java.util.*;
-class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
-        while(t-- > 0) {
-            int x = sc.nextInt(), y = sc.nextInt();
-            System.out.println(Math.abs((x-1)/10 - (y-1)/10));
-        }
-    }
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		while(n-- > 0){
+		    int a = sc.nextInt() , x = sc.nextInt();
+		    int b = sc.nextInt() , y = sc.nextInt();
+		    
+		    if(a * y > b * x){
+		        System.out.println("ALICE");
+		    }
+		    else if(a * y < b * x){
+		        System.out.println("BOB");
+		    }
+		    else{
+		        System.out.println("EQUAL");
+		    }
+		}
+	}
 }
