@@ -9,9 +9,16 @@ class Codechef
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		while(n-- > 0){
-		    int a = sc.nextInt() , b = sc.nextInt() , c = sc.nextInt();
-		    int score = 3 * b - (a - b);
-		    System.out.println(score >= c ? "PASS" : "FAIL");
+		    int a = sc.nextInt();
+		    int b = sc.nextInt();
+		    int c = sc.nextInt();
+		    int d = sc.nextInt();
+		    if(a + c == 100 && b + d == 100){
+		        System.out.println("YES");
+		    }
+		    else{
+		        System.out.println("NO")''
+		    }
 		}
 
 	}
